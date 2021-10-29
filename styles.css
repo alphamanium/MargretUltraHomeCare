@@ -37,6 +37,12 @@ header {
   color: #0088a9;
 }
 
+
+#message_quote {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0088a9;
+}
+
 .nav_links {
   list-style: none;
 }

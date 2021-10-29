@@ -17,16 +17,16 @@ a
   text-decoration: none;
 }
 
-.box {
-background-color: white;
-}
+ 
 
 
-header {
+ .menu_box {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
+  background-color: #A8DCD9;
+
 }
 
 #logo {
@@ -41,6 +41,7 @@ header {
 #message_quote {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #0088a9;
+  text-align: center;
 }
 
 .nav_links {

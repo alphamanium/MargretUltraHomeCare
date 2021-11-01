@@ -1,44 +1,48 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.header {
-  min-height: 110vh;
-  width: 100%;
-  background-position: center;
-  background-image: url(homepage-pic.jpg);
-  background-size: cover;
-  position: relative;
+.vid video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
 }
 
 /*Positioning of Nav Bar lists*/
-.nav_links {
+/* .nav_links {
   margin: 0px;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* Gets rid of bullet points on nav lists*/
-li {
+/* li {
   list-style: none;
   margin-right: 2rem;
-}
+} */
 
 /* Style of nav bar lists*/
-li a {
+/* li a {
   text-decoration: none;
   font-family: "lora", sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #1a1d1a;
   transition: all 0.3s ease 0s;
-}
+} */
 
 /* Color of logo in Nav bar*/
-li:first-child {
+/* li:first-child {
   color: #ff6666;
   cursor: pointer;
 }
@@ -54,14 +58,14 @@ li:first-child {
   background-color: #ff6666;
   display: block;
   margin: auto;
-}
+} */
 
 /*Creates underline hover effect under navbar links*/
-.nav_links li a:hover::after {
+/* .nav_links li a:hover::after {
   width: 100%;
-}
+} */
 
-button {
+/* button {
   font-family: "lora", sans-serif;
   font-weight: bold;
   font-size: 16px;
@@ -99,4 +103,4 @@ button:hover {
   margin: auto;
   text-align: center;
   padding-top: 100px;
-}
+} */

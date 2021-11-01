@@ -1,12 +1,10 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: bisque;
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 110vh;
   width: 100%;
   background-position: center;
   background-image: url(homepage-pic.jpg);
@@ -16,7 +14,7 @@
 
 /*Positioning of Nav Bar lists*/
 .nav_links {
-  margin: 10px;
+  margin: 0px;
   padding: 1rem 0;
   display: flex;
   justify-content: center;
@@ -35,7 +33,7 @@ li a {
   font-family: "lora", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: #1a1d1a;
   transition: all 0.3s ease 0s;
 }
 
@@ -85,14 +83,14 @@ button:hover {
 .homepage-textbox {
   width: 90%;
   position: absolute;
-  top: 40%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
 .homepage-textbox h1 {
-  font-size: 15px;
+  font-size: 25px;
   padding-bottom: 10px;
 }
 

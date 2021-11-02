@@ -213,3 +213,8 @@ h3 {
     transform: translate(0, -0px);
   }
 } */
+
+.services-section-text {
+  display: flex;
+  justify-content: flex-start;
+}

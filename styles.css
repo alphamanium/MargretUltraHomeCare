@@ -163,12 +163,18 @@ button:hover {
   margin: auto;
 }
 
+/*Resizing of image for about section*/
+.about img {
+  width: 50%;
+  margin-left: 50px;
+}
+
 /*Font size increase of about section paragraphs*/
 .about-section-text p {
   font-size: 15px;
 }
 
-/* .floating {
+#floating {
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -185,7 +191,7 @@ button:hover {
   to {
     transform: translate(0, -0px);
   }
-} */
+}
 
 /*SERVICES SECTION*/
 
@@ -244,6 +250,28 @@ h3 {
 
 /*Positioning of services section text body*/
 .services-section-text {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.services-paragraph {
+  flex-basis: 25%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.services-lists {
+  border: 2px solid black;
   display: flex;
   justify-content: flex-start;
+  margin: auto;
 }

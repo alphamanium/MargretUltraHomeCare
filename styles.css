@@ -10,12 +10,16 @@ body {
   font-family: "lora", sans-serif;
 }
 
-#main {
+/*HEADER SECTION*/
+
+/*Styling of the first page section*/
+#head {
   position: relative;
   height: 100vh;
   color: #fff;
 }
 
+/*Positioning of div element surrounding homepage background video */
 .container {
   position: absolute;
   top: 0;
@@ -38,12 +42,14 @@ body {
   height: 100%;
 }
 
+/*Scale of homepage background video*/
 .video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
+/* Positioning of nav bar*/
 .navbar {
   position: absolute;
   z-index: 9999;
@@ -52,39 +58,47 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px 100px;
+  background-color: darkred;
+  opacity: 0.9;
 }
 
+/*Styling for nav bar lists*/
 .navbar ul li a {
   text-decoration: none;
   margin-left: 40px;
   font-family: "lora", sans-serif;
   font-size: 16px;
   font-weight: bold;
-  color: #1a1d1a;
+  color: white;
   transition: all 0.3s ease 0s;
 }
 
+/*Removes bullet points from nav bar lists*/
 .navbar ul {
   list-style: none;
 }
 
+/* Styling for Logo header*/
 .navbar h1 {
   cursor: pointer;
   font-size: 26px;
-  color: #1a1d1a;
+  color: white;
   transition: transform 0.5s;
   text-transform: uppercase;
 }
 
+/*Hover effect for logo */
 .navbar h1:hover {
   color: #ef3054;
 }
 
+/*Underline for nav bar lists with hover effect*/
 .navbar ul li a:hover {
   border-bottom: 3px solid #ef3054;
   color: #ef3054;
 }
 
+/* Styling for all buttons*/
 button {
   font-family: "lora", sans-serif;
   font-weight: bold;
@@ -100,11 +114,13 @@ button {
   transition: all 0.3s ease 0s;
 }
 
+/*Hover effect for all buttons*/
 button:hover {
   background-color: #cc0000;
 }
 
-.homepage-content {
+/*Positioning of homepage text body*/
+.homepage-text-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,61 +133,14 @@ button:hover {
   left: 0;
 }
 
-.homepage-content h1 {
+/*Styling of homepage text*/
+.homepage-text-body h1 {
   color: #1a1d1a;
   padding-bottom: 10px;
   font-size: 20px;
 }
 
-.services {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-}
-
-p {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10px;
-}
-
-/* flexbox positioning for services column*/
-.row {
-  margin-top: 5%;
-  padding-bottom: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
-/* styling for services columns*/
-.services-column {
-  flex-basis: 25%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-
-/*Hover effect for services columns*/
-.services-column:hover {
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
-}
-
-h3 {
-  text-align: center;
-  padding-top: 20px;
-}
-
-/*Makes columns mobile responsive*/
-@media (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
-}
+/*ABOUT SECTION*/
 
 /*About section header*/
 .about {
@@ -182,16 +151,19 @@ h3 {
   padding-bottom: 50px;
 }
 
+/*Repositioning of about section header*/
 .about h1 {
   margin-left: 10px;
 }
 
+/*Positioning for about section text body*/
 .about-section-text {
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
 
+/*Font size increase of about section paragraphs*/
 .about-section-text p {
   font-size: 15px;
 }
@@ -215,6 +187,62 @@ h3 {
   }
 } */
 
+/*SERVICES SECTION*/
+
+/*Positioning of Services section*/
+.services {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/*Positioning & styling of Services section sub header*/
+p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
+/*Positioning for services column*/
+.row {
+  margin-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* styling for services columns*/
+.services-column {
+  flex-basis: 25%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+/*Hover effect for services columns*/
+.services-column:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*Positioning of text within services columns*/
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*Makes columns mobile responsive*/
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/*Positioning of services section text body*/
 .services-section-text {
   display: flex;
   justify-content: flex-start;

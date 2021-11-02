@@ -6,8 +6,13 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "lora", sans-serif;
+  background-color: #fdf5e6;
 }
 
 /*HEADER SECTION*/
@@ -16,7 +21,7 @@ body {
 #head {
   position: relative;
   height: 100vh;
-  color: #fff;
+  color: #fdf5e6;
 }
 
 /*Positioning of div element surrounding homepage background video */
@@ -214,7 +219,7 @@ p {
 /*Positioning for services column*/
 .row {
   margin-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
@@ -222,7 +227,7 @@ p {
 /* styling for services columns*/
 .services-column {
   flex-basis: 25%;
-  background: #fff3f3;
+  background: #ecce97;
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -246,32 +251,4 @@ h3 {
   .row {
     flex-direction: column;
   }
-}
-
-/*Positioning of services section text body*/
-.services-section-text {
-  margin-top: 5%;
-  padding-bottom: 5%;
-  display: flex;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
-
-.services-paragraph {
-  flex-basis: 25%;
-  background: #fff3f3;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
-
-.services-lists {
-  border: 2px solid black;
-  display: flex;
-  justify-content: flex-start;
-  margin: auto;
 }
